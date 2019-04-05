@@ -17,5 +17,5 @@ public class TradeEventController {
         //add HKG only for OBS trades
     }
 
-    // add private method to generate random currency from the list
+    // add private method to generate random currency from the list d
 }
