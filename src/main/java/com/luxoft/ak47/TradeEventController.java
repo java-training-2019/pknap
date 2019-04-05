@@ -9,7 +9,7 @@ import java.awt.*;
 @RestController
 public class TradeEventController {
 
-    @RequestMapping(name = "/tradeEvent",  produces = MediaType.TEXT_XML_VALUE)
+    @RequestMapping(value = "/tradeEvent",  produces = MediaType.TEXT_XML_VALUE)
     String tradeEvent() {
         return  "<tradeEvent><version>0</version></tradeEvent>";
     }
